@@ -1,0 +1,36 @@
+# Private Windows machine reports & user exports
+diagnostics/
+snapshot.json
+SwitchLAN-snapshot.json
+*.snapshot.json
+*.log
+*.tmp
+# Local test artifacts
+node_modules/
+__pycache__/
+.pytest_cache/
+playwright-report/
+test-results/
+.DS_Store
+Thumbs.db
+
+# .NET desktop build output
+desktop/**/bin/
+desktop/**/obj/
+desktop/**/publish/
+.vs/
+*.user
+
+# Release packages and private runtime state
+artifacts/
+output/
+WebView2/
+requests/
+managed.json
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.key
+*.pem
